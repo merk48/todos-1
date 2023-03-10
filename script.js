@@ -39,14 +39,14 @@ filterbtn.classList.add("hidden");
 
 //^
 document.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") c.call(arr);
+  if (e.key === "Enter" && todosInput.value !=='') c.call(arr);
 });
 
 //^
 
 function c() {
   arr.push(todosInput.value);
-
+ arr.forEach((todo,i) => window.localStorage.setItem(i,todo))
   run(arr);
 
   //^
