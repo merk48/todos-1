@@ -46,21 +46,8 @@ h1 {
 a {
     color: #f00;
     padding-left: 20px;
-
 }
 
-/* 
-checkbox {
-    width: 20px;
-    height: 20px;
-    border: 1px solid ;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    position: relative;
-    margin-right: 20px;
-} */
 .hidden {
     display: none;
+}
